@@ -16,10 +16,12 @@ public class DBConnector {
     /**
      * Variables para instanciar la conexion
      */
-    private static final String USER = "root";
-    private static final String PASSWORD = "root";
-    private static final String URL_MYSQL = "jdbc:mysql://localhost:3306/mi_muebleria";
-    private static final String HISTORIAL = "historial";
+    private static final String USER = "Diego";
+    private static final String PASSWORD = "maldonado19";
+    private static final String HOST = "localhost";
+    private static final String PORT = "3306";
+    private static final String DATABASE = "mi_muebleria";
+    private static final String URL_MYSQL = "jdbc:mysql://"+HOST+":"+PORT+"/"+DATABASE;
     private Connection connection = null;
 
     /**
